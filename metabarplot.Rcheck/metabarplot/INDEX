@@ -1,0 +1,6 @@
+abund_stats             Summarize Per-Taxon Abundances
+metabarplot-colors      Color Palettes for Taxonomic Barplots
+pbar                    Create Taxonomic Abundance Barplots
+ps_from_taxtable        Create a Dummy Phyloseq Object from a Taxonomy
+                        Table
+tax_stats               Build an Abundance Table from Taxonomy Data
