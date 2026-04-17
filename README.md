@@ -5,8 +5,7 @@
 ## Installation
 
 ```r
-# Local install
-install.packages("/path/to/metabarplot", repos = NULL, type = "source")
+remotes::install_github("jelmerp/metabarplot")
 ```
 
 ## Quick example
@@ -20,6 +19,5 @@ abund_df <- tibble::tibble(
   Abundance = c(0.4, 0.6, 0.7, 0.3)
 )
 
-p <- pbar(abund_df = abund_df, taxrank = "Phylum")
-print(p)
+pbar(abund_df = abund_df, taxrank = "Phylum")
 ```
